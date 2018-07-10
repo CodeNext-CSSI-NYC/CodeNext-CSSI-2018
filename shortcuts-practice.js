@@ -6,8 +6,6 @@ let a = 7;
 // Print out its value before and after each step to make sure it worked.
 let b = 18;
 
-// Bonus: Can you think of a way to double the value of a variable using an addition shortcut? Hmm.... (Note: you would never do this, since readability of code is very important and this would be confusing.)
-
 // 3. Predict the value of d. Then print it out to see if you were right.
 let c = 13;
 let d = c++;
