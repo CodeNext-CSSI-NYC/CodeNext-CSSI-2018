@@ -15,7 +15,7 @@ sumDouble(2, 2) → 8
 
 // Call it a few times and console.log the result, to make sure it is working
 
-// Test out your function using our provided tests by uncommenting the line testSumDouble at the very bottom of this file
+// Test out your function using our provided tests by uncommenting the line testSumDouble() at the very bottom of this file
 
 /******************************************************************************
 2. Create a function called makes10
@@ -31,7 +31,7 @@ makes10(1, 9) → true
 
 // Call it a few times and console.log the result, to make sure it is working
 
-// Test out your function using our provided tests by uncommenting the line testMakes10 at the very bottom of this file
+// Test out your function using our provided tests by uncommenting the line testMakes10() at the very bottom of this file
 
 
 /******************************************************************************
@@ -51,7 +51,7 @@ parrotTrouble(false, 6) → false
 
 // Call it a few times and console.log the result, to make sure it is working
 
-// Test out your function using our provided tests by uncommenting the line testParrotTrouble at the very bottom of this file
+// Test out your function using our provided tests by uncommenting the line testParrotTrouble() at the very bottom of this file
 
 /****************************************************************************
                                     Tests

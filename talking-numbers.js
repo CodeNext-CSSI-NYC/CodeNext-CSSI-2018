@@ -7,10 +7,10 @@ let readline = require("readline-sync");
   Prints a simple greeting. Be as creative as you want here. Be sure to include
   your name as the author!
 *******************************************************************************/
-
 function printGreeting() {
 
 }
+
 
 /******************************************************************************
   This function takes a number between 1 and 9 (inclusive) as input and returns
@@ -26,6 +26,7 @@ function sayZeroNine(num) {
 
 }
 
+
 /******************************************************************************
   This function takes a number between 10 and 19 (inclusive) as input and returns
   that same number in word form. If the number is not between 10 and 19, the
@@ -40,6 +41,7 @@ function sayTenNineteen(num) {
 
 }
 
+
 /******************************************************************************
   This function takes a number between 2 and 9 (inclusive) as input and returns
   that same number in word form, but in the tens place. If the number is not
@@ -53,6 +55,7 @@ function sayTenNineteen(num) {
 function sayTwentyNinety(num) {
 
 }
+
 
 /******************************************************************************
   This function calls the three functions above to convert an entire number (num)
@@ -81,6 +84,7 @@ function sayNumber(num) {
 
 }
 
+
 /******************************************************************************
   This function simply runs your program. At the very least it should greet the
   user, ask the user to enter a number between 0 and 9999, then print that
@@ -90,5 +94,5 @@ function run() {
 
 }
 
-// Run the program!
+// Call the run() function to run the program.
 run();

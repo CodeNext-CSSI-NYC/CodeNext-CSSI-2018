@@ -6,7 +6,7 @@
 
 
 
-// 2a. Write (declare) a function that takes one parameter and prints out the square of that parameter
+// 2a. Write (declare) a function that takes one parameter and prints out the square of that number
 
 // 2b. Call it three times with three different parameters. Run your code to make sure it works.
 
@@ -16,13 +16,13 @@
 // "_____ is greater than ____" with the blanks filled in correctly with the two inputs.
 
 // 3b. Call it three times with three different parameters
-// Make sure to try cases where the first one is bigger, the second one is bigger, and when they are the same.
+// Make sure to try cases where the first one is bigger, the second one is bigger, and when they are equal.
 // Run your code to make sure it works.
 
 
 
 // 4a. Write (declare) a function that takes one parameter called name and
-// returns (not prints out, just returns) the string "Hello ____".
+// returns (not prints out, just returns) the string "Hello ____", with the name in the blank.
 
 // 4b. Call the function and store the result in a variable. Then, print out that variable.
 // Repeat this three times with different names.
