@@ -1,10 +1,17 @@
 // 1. Write a function that takes an array of numbers and returns an array that contains
 // double each number.
 function double(arr) {
-
+  newArray = [];
+  for (var i = 0; i < arr.length; i++) {
+    let item = arr[i];
+    newArray.push(item * 2);
+  }
+  return newArray;
 }
+
+console.log(double([1, 2, 3]))
 // Here is one test. Uncomment it when ready and try adding more.
-testEqual(double([3, 2, 5]), [6, 4, 10]);
+// testEqual(double([3, 2, 5]), [6, 4, 10]);
 
 
 
@@ -23,7 +30,7 @@ function smallestLargest(arr) {
 
 }
 // Here is one test. Uncomment it when ready and try adding more.
-// testEqual(double([3, 7, 2, 5]), [2, 7]);
+// testEqual(smallestLargest([3, 7, 2, 5]), [2, 7]);
 
 
 
@@ -33,7 +40,7 @@ function moveLast(arr) {
 
 }
 // Here is one test. Uncomment it when ready and try adding more.
-// testEqual(double([3, 2, 5, 7]), [7, 3, 2, 5]);
+// testEqual(moveLast([3, 2, 5, 7]), [7, 3, 2, 5]);
 
 
 
