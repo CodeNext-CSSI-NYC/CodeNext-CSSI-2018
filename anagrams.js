@@ -7,11 +7,11 @@
 // Note: this is not *every* English word so don't complain if your favorite is missing.
 let fs = require('fs');
 const words = fs.readFileSync('words.txt').toString().split("\n");
+// Note that all the words are in lowercase.
 
 
-
-// 1. Find all words that are 12 letters long. Specifically, add them all to a new
-// array and then print out that array at the end.
+// 1. In the array above, find all words that are 12 letters long.
+// Specifically, add them all to a new array and then print out that array at the end.
 
 
 
@@ -26,14 +26,12 @@ const words = fs.readFileSync('words.txt').toString().split("\n");
 // and returns an object that contains the counts of the letters in the string.
 // For example, for creative it would be {c: 1, r: 1, e: 2, a: 1, t: 1, i: 1, v: 1}
 
-
-
 // 4a.
 // We will cheat a bit here and use another package:
 // npm install object-equal
 // For more see www.npmjs.com/package/object-equal
 // This will check for us if two objects have the same keys and values.
-// Note that regular == does not work for objects or for arrays.
+// Note that regular == does NOT work for objects or for arrays.
 let objectEqual = require('object-equal');
 // Now you can check if two objects are equal using: objectEqual(obj1, obj2);
 
@@ -49,3 +47,14 @@ let objectEqual = require('object-equal');
 // Track all of the anagrams in a new array and print it out at the end.
 // Make sure you test this out. One pair of anagrams that are both in the list are:
 // scared and sacred. I'm sure there are many more.
+
+
+
+// 5. Using a similar technique, find all words that contain at least 4 E's.
+
+
+// Bonus
+// 6. Find all words that are the same forwards and backwards.
+// In order to do this, you will need to write a separate function that determines
+// if a word is the same forwards and backwards, and call that each time.
+// Another way of saying this is that the word is the same as its reverse.
