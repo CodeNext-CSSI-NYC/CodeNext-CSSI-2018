@@ -37,7 +37,6 @@ function createCounts(arr) {
 
 
 
-
 // 3b. Write a function isValid that takes in a counter object and checks that the values add up to 5.
 // It should return true or false. For example, if you pass in {2: 2, 3: 1, 5: 1, 1: 1}
 // it should return true, but {2: 2, 3: 1, 5: 1, 1: 2} should return false.
@@ -56,8 +55,6 @@ function hasTwoOfAKind(obj) {
 
 
 
-
-
 // 5. Write a function that determines whether or not a counter object contains
 // a three-of-a-kind. This means that one of the counts is 3 or higher.
 function hasThreeOfAKind(obj) {
@@ -66,6 +63,7 @@ function hasThreeOfAKind(obj) {
 // You can test this out by calling #2 and #3 above to create counter objects,
 // or you can just create your own and pass them in. For example, you could call
 // hasThreeOfAKind({1:3, 2:1, 6:1}) and make sure it says true.
+
 
 
 // 6. Write a function that determines whether or not a counter object contains
@@ -90,6 +88,7 @@ function hasYahtzee(obj) {
 // hasYahtzee({1:5}) and make sure it says true.
 
 
+
 // 8. Write a function that determines whether or not a counter object contains
 // a full house. This means that one of the counts is 3 and a different one is 2.
 function hasFullHouse(obj) {
@@ -98,6 +97,7 @@ function hasFullHouse(obj) {
 // You can test this out by calling #2 and #3 above to create counter objects,
 // or you can just create your own and pass them in. For example, you could call
 // hasFullHouse({1:3, 5:2}) and make sure it says true.
+
 
 
 // 9. Write a function that determines whether or not a counter object contains
@@ -111,7 +111,8 @@ function hasSmallStraight(obj) {
 // hasFullHouse({3:1, 4:1, 5:2, 6:1}) and make sure it says true.
 
 
-// 9. Write a function that determines whether or not a counter object contains
+
+// 10. Write a function that determines whether or not a counter object contains
 // a large straight. This means that either all of the values from 1-5 appear at least once,
 // or all the values from 2-6 appear at least once.
 function hasLargeStraight(obj) {

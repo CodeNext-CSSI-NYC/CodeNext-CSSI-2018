@@ -5,15 +5,29 @@
 // After you create this object, add the key value pair d -> 14 to the object
 // Print out the object to make sure it looks like you expect
 // Change the value associated with the key b from 12 to 19
-// Create an array called myObjKeys that contains the keys from this object
+// Create an array called myObjKeys that contains the keys from this object using Object.keys()
 // Print it out to make sure it looks right
-// Create an array called myObjValues that contains the values from this object
+// Create an array called myObjValues that contains the values from this object using Object.values()
 // Print it out to make sure it looks right
 // Print out the value associated with the key "a" using both styles of accessing object values.
 // Make sure you know how to use both of them.
 
 
-// 2. Write a function that takes a string as input and returns an object
+
+// 2. Create an object that contains any key-value pairs you want.
+// Print it out, make sure it looks right.
+// Delete one of the key-value pairs.
+// Add a new one.
+// Change the value associated with one of the existing keys.
+// Print it out again. Does it look as you expected?
+// Store one of the values from the object into a variable called myVal.
+// Print out another value from the object.
+// The purpose of the previous two things is to make sure you know both ways to
+// access values in objects using keys. Make sure you can do both.
+
+
+
+// 3. Write a function that takes a string as input and returns an object
 // whose key-value pairs are counts of the number of times each letter appears.
 function letterCount(str) {
 
@@ -32,21 +46,21 @@ function letterCount(str) {
 
 
 
-
-// 3. Write a function that takes a string as input and returns a different string
+// 4. Write a function that takes a string as input and returns a different string
 // that contains each letter in the original string exactly once.
 function eachLetterOnce(str) {
 
 }
 // So eachLetterOnce("mississippi") would return "misp" (letters may be in another order).
-// Hint: Use an object to keep track of what letters appear in the word.
+// Hint: Use an object to keep track of what letters appear in the word. You can
+// set obj[letter] = true for each letter you come across.
 // At the end, get the keys of that object (which is an array) and use join
 // (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 // to create a string.
 
 
 
-// 4. Write a function that takes one parameter, an object, and prints out a line
+// 5. Write a function that takes one parameter, an object, and prints out a line
 // like the followng for every key-value pair in the object:
 // "The key ___ has a value of ___"
 function printKeysAndValues(obj) {

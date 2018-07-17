@@ -13,11 +13,15 @@
 // For example if they have {4: 4, 6: 1} then they have achieved both a three-of-a-kind
 // and a four-of-a-kind during this turn.
 
+
+
 // 2. Once you have this working, play the game a bunch of times and see if you can get
 // each of the things we are checking for (full house, small straight, etc.)
 // The hardest one to get is Yahtzee, which only happens about 4.6% of the time
 // after three rolls if you play correctly,
 // according to https://en.wikipedia.org/wiki/Yahtzee#Any_Yahtzee.
+
+
 
 // 3. If you want another type of challenge, try showing the results of the rolls
 // using ASCII art rather than an array. So instead of telling the user they got
