@@ -22,7 +22,7 @@
 // the column is 0-6 but it is already full of X's.
 // It will probably help to make a isColumnFull(arr, colNumber) function whose
 // job is to tell you if a column is full. It may also help to make a separate
-// validColumnNumber(num) functiont that tells you whether or not the passed in
+// validColumnNumber(num) function that tells you whether or not the passed in
 // number is between 0-6.
 
 // Here is an array that is almost full, which will be useful when you are testing

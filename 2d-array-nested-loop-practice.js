@@ -41,7 +41,7 @@ let fruits = [
 
 
 
-// 5. Write a function that takes in a 2D - array and a string as input.
+// 5. Write a function that takes in a 2D-array and a string as input.
 // The function should return true if the string is found somewhere in the array, and false otherwise.
-// Test it using the fruits array, including case with fruits that are there
+// Test it using the fruits array, including cases with fruits that are there
 // and other cases with fruits that are not.
