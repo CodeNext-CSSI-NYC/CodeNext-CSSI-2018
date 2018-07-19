@@ -26,7 +26,7 @@
 // Play should continue until that happens.
 
 
-// You should console log the array after each move (or better yet, if you want to,]
+// You should console log the array after each move (or better yet, if you want to,
 // come up with a nicer way to print out the state of the game).
 
 // You should be able to win in 7 moves as follows:
